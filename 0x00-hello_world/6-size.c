@@ -5,17 +5,19 @@
 *
 * Return: Always 0 (Success)
 */
-int main() {
-    int intType;
-    float floatType;
-    double doubleType;
-    char charType;
+int main(void)
+{
+int intType;
+float floatType;
+double doubleType;
+char charType;
 
      /*sizeof evaluates the size of a variable*/
-    printf("Size of int: %zu bytes\n", sizeof(intType));
-    printf("Size of float: %zu bytes\n", sizeof(floatType));
-    printf("Size of double: %zu bytes\n", sizeof(doubleType));
-    printf("Size of char: %zu byte\n", sizeof(charType));
+printf("Size of a char: %zu bytes\n", sizeof(charType),"(s)");
+printf("Size of an int: %zu bytes\n", sizeof(intType),"(s)");
+printf("Size of a long int: %zu bytes\n", sizeof(longType),"(s)");
+printf("Size of a long long int: %zu byte\n", sizeof(doubleType),"(s)");
+printf("Size of a float: %zu bytes\n", sizeof(floatType),"(s)");
     
     return 0;
 }
