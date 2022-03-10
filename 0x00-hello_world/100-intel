@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc.exe main.c -masm=intel -mconsole -o main.exe
+gcc -S -masm=intel $CFILE
