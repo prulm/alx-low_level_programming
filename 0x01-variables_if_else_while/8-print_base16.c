@@ -12,7 +12,7 @@ int main(void)
 
 	char ch = 'a';
 
-        while (n <= 9)
+	while (n <= 9)
 	{
 		putchar(48 + n);
 		n++;
