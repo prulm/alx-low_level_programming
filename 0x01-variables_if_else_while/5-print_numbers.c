@@ -15,6 +15,7 @@ int main(void)
 		printf("%d", no);
 		no++;
 	}
+	printf("\n");
 
 	return (0);
 

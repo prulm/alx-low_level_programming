@@ -11,8 +11,7 @@ char ch = 'a';
 
 		while (ch <= 'z')
 		{
-		if (ch == 'q' || ch == 'e')
-			continue;
+		if (ch != 'q' && ch != 'e')
 		putchar(ch);
 		ch++;
 		}
