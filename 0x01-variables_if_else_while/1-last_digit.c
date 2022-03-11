@@ -3,7 +3,7 @@
 #include<time.h>
 
 /*
- * main entry point
+ * main - main block
  * Description: this code tests the last digit of the random number
  * Return: 0
  */
