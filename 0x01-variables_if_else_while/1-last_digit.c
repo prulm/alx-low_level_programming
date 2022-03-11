@@ -1,5 +1,5 @@
-#include <stdlib.h>
-#include <time.h>
+#include<stdlib.h>
+#include<time.h>
 
 /* main entry point
  * this code tests the last digit of the random number
