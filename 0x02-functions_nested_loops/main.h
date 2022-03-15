@@ -1,6 +1,6 @@
 #ifndef main
 #define main
 
-int _putchar(char);
+int _putchar(char j);
 
 #endif
