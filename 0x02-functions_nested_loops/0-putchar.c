@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 
 /**
  * main - main block
@@ -8,6 +8,14 @@
 
 int main(void)
 {
-    printf("_putchar\n");
-    return (0);
+    char c[] = "_putchar";
+
+    int j;
+
+    for (j = 0; j < 8; j++)
+	{
+		_putchar(c[j]);
+	}
+	_putchar("\n");
+	return (0);
 }
