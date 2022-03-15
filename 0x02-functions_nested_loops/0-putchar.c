@@ -1,20 +1,18 @@
 #include "main.h"
-
 /**
- * main - main block
- * Description: Prints _putchar
- * Return: 0 on success
- */
-
+ * main - entry block
+ * @void: no argument
+ * Return: 0
+ **/
 int main(void)
 {
-    char c[] = "_putchar";
+	char ermias[] = "_putchar";
 
-    int j;
+	int c;
 
-    for (j = 0; j < 8; j++)
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(c[j]);
+		_putchar(ermias[c]);
 	}
 	_putchar('\n');
 	return (0);
