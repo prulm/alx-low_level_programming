@@ -1,9 +1,10 @@
+#include<stdio.h>
 #include "main.h"
 
 /**
  * main - main block
  * Description: Prints _putchar
- * Return: 0
+ * Return: 0 on success
  */
 
 int main(void)
@@ -16,6 +17,6 @@ int main(void)
 	{
 		_putchar(c[j]);
 	}
-	_putchar("\n");
+	_putchar('\n');
 	return (0);
 }

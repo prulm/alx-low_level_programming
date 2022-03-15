@@ -1,1 +1,6 @@
-int _putchar(int c);
+#ifndef main
+#define main
+
+int _putchar(char);
+
+#endif
