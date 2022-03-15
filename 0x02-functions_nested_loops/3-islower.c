@@ -4,7 +4,7 @@
  * _islower - entry point
  * Desc: checks if lowercase or not
  * @c: takes in a character
- * return: 1 if lowercase 0 otherwise
+ * Return: 1 if lowercase 0 otherwise
  */
 
 int _islower(int c)
