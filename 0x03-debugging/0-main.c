@@ -2,7 +2,8 @@
 
 /**
  * main - entry point
- * Desc: Checks if positive_or_negative works
+ * Description: Checks if 
+ * positive_or_negative works
  * Return: 0 on success
  */
 
