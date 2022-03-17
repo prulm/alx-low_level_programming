@@ -3,9 +3,9 @@
 /**
  * more_numbers - prints numbers
  * b/n 0 and 14 10 times
- * @i - holds the numbers
- * @j - character holder
- * @c - holds characters
+ * @i : holds the numbers
+ * @j : character holder
+ * @c : holds characters
  */
 
 void more_numbers(void)

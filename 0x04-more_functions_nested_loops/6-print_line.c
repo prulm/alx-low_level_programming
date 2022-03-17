@@ -2,8 +2,8 @@
 
 /**
  * print_line - draws a straight line
- * @n - how many times _ is used
- * @i - counter
+ * @n : how many times _ is used
+ * @i : counter
  */
 void print_line(int n)
 {
