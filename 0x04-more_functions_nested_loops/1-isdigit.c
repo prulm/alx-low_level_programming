@@ -2,8 +2,7 @@
 
 /**
  * _isdigit - checks if a digit
- * Return : 1 if a digit
- * 0 otherwise
+ * Return: 0 or 1
  * @c : holds character value
  */
 
