@@ -1,36 +1,37 @@
-#include "main.h"
-
+#include "holberton.h"
 /**
- * print_number - prints a number
- * @n: Input number
+ * print_number - prints numbers
+ * @n: number to be printed
+ * Return:void
  */
 
 void print_number(int n)
 {
-	long len, res, i, temp, expo;
 
-	res = n;
-	expo = len =  1;
-	if (res < 0)
+	int d = 1, i = 0, ii = 0;
+
+	if (n < 0)
 	{
-		res *= -1;
 		_putchar('-');
+		n = -n;
 	}
-	temp = res;
 
-	while (temp >= 10)
+	while (n / d != 0)
 	{
-		len++;
-		temp /= 10;
+		d *= 10;
+		i++;
 	}
+	d = d / 10;
 
-	for (i = 1; i < len; i++)
-		expo *= 10;
-
-	while (expo > 1)
+	while (ii < i)
 	{
-		_putchar((res / expo) % 10 + '0');
-		expo /= 10;
+		_putchar('0' + n / d);
+		n = n - (n / d) * d;
+		d = d / 10;
+		ii++;
 	}
-	_putchar(res % 10 + '0');
+
+	if (i == 0)
+		_putchar('0' + n);
+
 }
