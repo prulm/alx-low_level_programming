@@ -19,6 +19,6 @@ int main(void)
 		if ((n % i) == 0)
 			largest = i;
 	}
-	printf("%d", largest);
+	printf("%ld", largest);
 return (0);
 }
