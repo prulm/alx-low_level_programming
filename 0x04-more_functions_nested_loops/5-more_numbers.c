@@ -3,14 +3,11 @@
 /**
  * more_numbers - prints numbers
  * b/n 0 and 14 10 times
- * @i : holds the numbers
- * @j : character holder
- * @c : holds characters
  */
 
 void more_numbers(void)
 {
-	char j, c;
+	int j, c;
 
 	for (int i = 0; i <= 9; i++)
 	{
