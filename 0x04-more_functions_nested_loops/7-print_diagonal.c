@@ -2,10 +2,8 @@
 
 /**
  * print_diagonal - prints a diagonal line
- * @i : counter
  * @n : the number of \
- * @j : counter
- * @k : counter
+ * Return: none
  */
 
 void print_diagonal(int n)
