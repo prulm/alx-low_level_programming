@@ -8,17 +8,7 @@
 
 int _atoi(char *s)
 {
-	int sign = 1, resp = 0, firstNum, i, j;
-
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		if (s[i] >= '0' && s[i] <= '9')
-			j++;
-	}
-	if (j == 0)
-		return (0);
-	else
-	{
+	int sign = 1, resp = 0, firstNum, i;
 
 	for (firstNum = 0; !(s[firstNum] >= 48 && s[firstNum] <= 57); firstNum++)
 	{
@@ -35,5 +25,4 @@ int _atoi(char *s)
 	}
 
 	return (sign * resp);
-	}
 }
