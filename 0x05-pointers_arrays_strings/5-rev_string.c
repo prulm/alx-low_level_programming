@@ -13,6 +13,7 @@ void rev_string(char *s)
 
 	char *str;
 
+	str = s;
 	*str = *s;
 
 	while (s[i])
