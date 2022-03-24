@@ -2,12 +2,12 @@
 
 /**
  * leet - encodes a string
- * @i: string
+ * @s: string
  * Return: the encoded string
  */
 
 
-char *leet(char *)
+char *leet(char *s)
 {
 	int i, ii;
 	char s1[] = "aeotl";
