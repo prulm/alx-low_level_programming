@@ -7,7 +7,7 @@
  */
 
 
-char *leet(char *s)
+char *leet(char *)
 {
 	int i, ii;
 	char s1[] = "aeotl";
