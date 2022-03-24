@@ -9,7 +9,6 @@
 
 char *_strcat(char *dest, char *src)
 {
-
 	int len,i;
 
 	for (len = 0; dest[len]!= '\0';len++)
