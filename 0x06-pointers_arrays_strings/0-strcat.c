@@ -18,5 +18,5 @@ char *_strcat(char *dest, char *src)
 	{
 		dest[len] = src[i];
 	}
-	printf("%s", s1);
+	return (dest);
 }
