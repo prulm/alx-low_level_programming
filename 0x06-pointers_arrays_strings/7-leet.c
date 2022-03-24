@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * *leet - encodes a string
- * @ : string
+ * leet - encodes a string
+ * @i: string
  * Return: the encoded string
  */
 
