@@ -2,10 +2,10 @@
 
 /**
  * *_memcpy - copies memory area
- * @dest : destination of mem area
- * @src : source of memory area
- * @n : number of mem areas copied
- * Return : character
+ * @dest : destination
+ * @src : source
+ * @n : max bytes
+ * Return: dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
