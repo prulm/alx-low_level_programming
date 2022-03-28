@@ -5,7 +5,6 @@
  * @dest : destination of mem area
  * @src : source of memory area
  * @n : number of mem areas copied
- *
  * Return : character
  */
 
