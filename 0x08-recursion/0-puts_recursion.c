@@ -11,12 +11,3 @@ void _puts_recursion(char *s)
 	int i = 0;
 	print(s, i);
 }
-void print(char *s, int i)
-{
-	if (s[i] > '\0')
-	{
-		_putchar(s[i]);
-	}
-	i++;
-	print(s, i);
-}
