@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
  * _print - moves a string one place to the left and prints the string
  * @str: string to move
@@ -25,7 +24,6 @@ void _print(char *str, int l)
 	_putchar('\n');
 	free(str);
 }
-
 /**
  * mul - multiplies a char with a string and places the answer into dest
  * @n: char to multiply
