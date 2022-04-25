@@ -15,7 +15,7 @@ size_t print_listint(const listint_t *h)
 
 	while (trav != NULL)
 	{
-		printf("%d\n", trav->n);
+		printf("%i\n", trav->n);
 		trav = trav->next;
 		node_nr++;
 	}
