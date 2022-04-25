@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_listint - prints elements of linkedlist
+ * print_listint - prints elements
+ * of linkedlist
  * @h: linked list
- *
  * Return: number of nodes
  */
 
