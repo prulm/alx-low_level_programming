@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_listint - prints elements of a list
+ * print_listint - prints elements of linkedlist
  * @h: linked list
  *
  * Return: number of nodes
