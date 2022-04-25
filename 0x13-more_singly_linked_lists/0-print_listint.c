@@ -9,8 +9,9 @@
 
 size_t print_listint(const listint_t *h)
 {
-	const listint_t *trav = h;
 	size_t node_nr = 0;
+	const listint_t *trav = h;
+
 
 	while (trav != NULL)
 	{
