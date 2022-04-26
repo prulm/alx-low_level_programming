@@ -8,7 +8,7 @@
 int sum_listint(const listint_t *head)
 {
 	int sum = 0;
-	listint_t trav = head;
+	listint_t *trav = *head;
 
 	while (head != NULL)
 	{
