@@ -19,6 +19,6 @@ size_t print_listint(const listint_t *h)
 		current = current->next;
 		nbr_nodes++;
 	}
-	printf("-> %i elements", nbr_nodes);
+
 	return (nbr_nodes);
 }
