@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * *add_nodeint - adds an element
+ * add_nodeint - adds an element
  * to a start of a linked list
  * @head : linked list
  * @n : data
@@ -12,9 +12,9 @@
 listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *newnode;
-	
+
 	newnode = (listint_t *) malloc(sizeof(listint_t));
-	
+
 	if (newnode == NULL)
 	{
 		free(newnode);
