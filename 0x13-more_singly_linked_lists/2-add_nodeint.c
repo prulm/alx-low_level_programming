@@ -5,7 +5,6 @@
  * to a start of a linked list
  * @head : linked list
  * @n : data to be inserted
- *
  * Return : address of the element
  */
 
