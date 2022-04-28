@@ -1,33 +1,46 @@
 #include "main.h"
 
 /**
- * binary_to_uint - converts a binary
- * 		    to an usigned int
- * @b : pointer to the string
- * Return : converted number
- *	: 0 if non-binary or null
+ * _strlen - find the length of a string
+ * @s: pointer to the string to check
+ * Return: void
+*/
+
+
+int _strlen(const char *s)
+{
+int i = 0;
+while (s[i])
+	i++;
+
+return (i);
+}
+
+
+/**
+ * binary_to_uint - converts a binary number to an unsigned int
+ * @b: binary number
+ *
+ * Return: 0 or converted number
  */
 
 unsigned int binary_to_uint(const char *b)
 {
-	int i, bin, rem, weight, count = 0;
-	unsigned int dec;
-
+	unsigned int n = 0;
+	int i, len;
 
 	if (b == NULL)
 		return (0);
-	for (i = 0; b[i] != '\0'; i++)
+
+	len = _strlen(b);
+
+	for (i = 0; i != len; i++)
 	{
-		if (b[i] != '0' && b[i] != '1')
+		if (b[len - i - 1] == '1')
+			n += 1 << i;
+		else if (b[len - i - 1] != '0')
 			return (0);
 	}
-	bin = atoi(b);
-	while (bin != 0)
-	{
-		rem = bin % 10;
-		dec = dec + rem * weight;
-		bin = bin / 10;
-		weight = weight * 2;
-	}
-	return (dec);
+
+	return (n);
 }
