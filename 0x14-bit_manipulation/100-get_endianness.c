@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * get_endianness - checks the endianness
  *
  * Return : 0 if big endian 1 if little endian
  */
-
 int get_endianness()
 {
 	unsigned int i = 1;
@@ -13,7 +11,11 @@ int get_endianness()
 	char *c = (char *) & i;
 
 	if (*c)
+	{
 		return (1);
+	}
 	else
+	{
 		return (0);
+	}
 }
